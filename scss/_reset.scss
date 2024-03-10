@@ -1,0 +1,32 @@
+html {
+  font-size: 1px;
+}
+
+body {
+  font-size: 16rem;
+  background-color: #171718;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1156rem;
+  margin-inline: auto;
+}
