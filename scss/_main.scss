@@ -1,0 +1,46 @@
+.skills {
+  max-width: 1110rem;
+  margin-inline: auto;
+  padding-bottom: 128rem;
+  
+  &__title {
+    text-align: center;
+    padding-bottom: 60px;
+    color: $text-color;
+    font-size: 34rem;
+    font-weight: 500;
+    line-height: 40rem;
+    letter-spacing: 0.25rem;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24rem;
+}
+.col {
+  border-radius: 8px;
+  background: #1c1e22;
+  padding: 24rem;
+
+  flex: 0 1 calc((100% - 24rem * 2) / 3);
+}
+
+.col-name {
+  color: $text-color;
+  font-size: 34rem;
+  font-weight: 500;
+  line-height: 40rem;
+  letter-spacing: 0.25rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.col-desc {
+  color: $text-color;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 28rem;
+  letter-spacing: 0.44rem;
+}

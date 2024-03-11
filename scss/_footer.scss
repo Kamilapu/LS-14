@@ -1,0 +1,28 @@
+.footer {
+  max-width: 1156rem;
+  margin-inline: auto;
+  border-top: 1rem solid #26292d;
+
+  &__logo {
+    color: $text-color;
+    font-family: $logo-font;
+    font-size: 24rem;
+    font-weight: 600;
+    line-height: 32rem;
+  }
+
+  &__contact {
+  }
+
+  &__social {
+  }
+}
+
+.incio {
+  color: $text-color;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 20rem;
+  letter-spacing: 0.25rem;
+}
+
