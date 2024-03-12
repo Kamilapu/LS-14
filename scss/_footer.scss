@@ -2,6 +2,12 @@
   max-width: 1156rem;
   margin-inline: auto;
   border-top: 1rem solid #26292d;
+  border-bottom: 1rem solid #26292d;
+  display: flex;
+  gap: 129rem;
+  padding-top: 64rem;
+  padding-bottom: 64rem;
+  margin-bottom: 16rem;
 
   &__logo {
     color: $text-color;
@@ -11,18 +17,53 @@
     line-height: 32rem;
   }
 
+  &__incio {
+    display: flex;
+    flex-direction: column;
+    gap: 24rem;
+  }
+
+  &__navname {
+    color: #85bfd1;
+    font-family: $ff;
+    font-size: 16rem;
+    font-weight: 500;
+    line-height: 20rem;
+    letter-spacing: 0.15rem;
+  }
+
+  &__nav {
+    color: $text-color;
+    font-family: $ff;
+    font-size: 14rem;
+    font-weight: 400;
+    line-height: 20rem;
+    letter-spacing: 0.25rem;
+  }
+
   &__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 24rem;
   }
 
-  &__social {
+  &__icon {
+    padding-right: 16rem;
   }
 }
 
-.incio {
+.social-name {
+  padding-bottom: 24rem;
+}
+
+.script {
+  max-width: 1156rem;
+  margin-inline: auto;
+  padding-bottom: 32rem;
   color: $text-color;
-  font-size: 14rem;
+  font-family: $ff;
+  font-size: 12rem;
   font-weight: 400;
-  line-height: 20rem;
-  letter-spacing: 0.25rem;
+  line-height: 16rem;
+  letter-spacing: 0.4rem;
 }
-

@@ -4,7 +4,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>Miguel Ruz</title>
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -96,22 +96,29 @@
           <div class="footer__logo">
                <a class="footer__logo" href="/">Miguel UI</a>
           </div>
-          <div class="footer__incio">
-               <a class="incio first"  href="/">Inicio</a>
-               <a class="incio" href="/">Acerca de mi</a>
-               <a class="incio" href="/">Proyectos</a>
-          </div>
-          <div class="footer__contact">
-               <a class="" href="/">Contáctame</a>
-               <a href="/">Correo</a>
-               <a href="/">LinkedIn</a>
-          </div>
+          <ul class="footer__incio">
+               <p class="footer__navname">Inicio</p>
+               <li><a class="footer__nav" href="/">Acerca de mi</a></li>
+               <li><a class="footer__nav" href="/">Proyectos</a></li>
+          </ul>
+          <ul class="footer__contact">
+               <p class="footer__navname">Contáctame</p>
+               <li><a class="footer__nav" href="/">Correo</a></li>
+               <li><a class="footer__nav" href="/">LinkedIn</a></li>
+          </ul>
           <div class="footer__social">
-               <img src="img/icons/Behance.svg" alt="logobehance">
-               <img src="img/icons/Linkendl.svg" alt="linkend">
-               <img src="img/icons/figma_logo.svg" alt="figma">
+               <p class="footer__navname social-name">Social</p>
+               <img class="footer__icon" src="img/icons/Behance.svg" alt="logobehance">
+               <img class="footer__icon" src="img/icons/Linkendl.svg" alt="linkend">
+               <img class="footer__icon" src="img/icons/figma_logo.svg" alt="figma">
           </div>
+
      </footer>
+     <div class="script">
+          <script>
+               document.write("&copy; " + new Date().getFullYear() + " Miguel Ruz");
+          </script>
+     </div>
 </body>
 
 </html>
